@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Vazir";
+    src: local("Vazir"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "VazirThin";
+    src: local("Vazir-Thin"),
+      url("../fonts/Vazir-Thin.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "VazirMedium";
+    src: local("Vazir-Medium"),
+      url("../fonts/Vazir-Medium.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "VazirLight";
+    src: local("Vazir-Light"),
+      url("../fonts/Vazir-Light.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "VazirBold";
+    src: local("Vazir-Bold"),
+      url("../fonts/Vazir-Bold.ttf") format("truetype");
+  }
+.app{
+    // width: 100vw;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    font-family: Vazir;    
+    margin: 0;
+      padding: 0;
+      direction: rtl;
+}
