@@ -1,5 +1,6 @@
 .searchbar {
   @include flex-row-center;
+  position: relative;
   height: 100%;
   padding-left: 24px;
   padding-right: 24px;
@@ -19,7 +20,7 @@
   }
   &__frame {
     @include flex-row-between;
-    height: 48px;
+    min-height: 48px;
     width: 450px;
     border: 1px solid $border-color-light;
     border-radius: 9999px;
@@ -27,6 +28,7 @@
     padding: 8px;
     box-sizing: border-box;
     font-family: VazirMedium;
+    color: #454545;
     &__guests{
       all: unset;
       @include flex-row-center;
@@ -36,6 +38,7 @@
       min-width: 30%;
       display: flex;
       justify-content: center;
+      border-right: 1px solid $border-color-light;
       cursor: pointer;
     }
     &__date{
@@ -52,9 +55,48 @@
       box-sizing: border-box;
       min-width: 30%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      border-right: 1px solid $border-color-light;
       cursor: pointer;
+      p{
+        margin: 0px;
+      }
+    }
+  }
+  &__select-destination{
+    position: absolute;
+    width: 200px;
+    padding: 8px;
+    right: 24px;
+    top: 60px;
+    background-color: #fff;
+    border: 1px solid $border-color-light;
+    border-radius: 10px;
+    font-size: 10px;
+    .ppl-ct{
+      margin: 0px;
+      margin-bottom: 8px;
+    }
+    input{
+      all: unset;
+      height: 25px;
+    }
+    hr{
+      height: 1px;
+      background-color: $border-color-light;
+      border: none;
+    }
+    &__popular-city{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+      p{
+        margin: 0px;
+        padding: 4px;
+        border: 1px solid $border-color-light;
+        border-radius: 10px;
+      }
     }
   }
 }
