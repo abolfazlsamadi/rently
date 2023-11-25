@@ -4,7 +4,7 @@ import SearchBar from "./NavSearchbar";
 import NavUser from "./NavUser";
 const Navbar = () => {
   return (
-    <main>
+    <main className="mainNavbar">
       <NavLogo />
       <SearchBar />
       <NavUser />

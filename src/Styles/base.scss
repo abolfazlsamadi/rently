@@ -1,0 +1,18 @@
+//---------colors --------------------------------------------------------------
+$border-color-light: #dddddd;
+//---------mixins --------------------------------------------------------------
+@mixin flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex-row-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
