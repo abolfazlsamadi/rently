@@ -1,0 +1,76 @@
+@import "../../../Styles/base.scss";
+
+.select-destination {
+  position: absolute;
+  width: 200px;
+  max-height: 200px;
+  padding: 8px;
+  right: 24px;
+  top: 60px;
+  background-color: #fff;
+  border: 1px solid $border-color-light;
+  border-radius: 10px;
+  font-size: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  .ppl-ct {
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+  input {
+    all: unset;
+    height: 25px;
+    width: 100%;
+  }
+  hr {
+    height: 1px;
+    background-color: $border-color-light;
+    border: none;
+  }
+  &__popular-city {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 12px;
+    p {
+      margin: 0px;
+      padding: 4px;
+      border: 1px solid $border-color-light;
+      border-radius: 10px;
+    }
+  }
+  &__state {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid $border-color-light;
+    &__icon {
+      @include flex-row-center;
+      &__MapPinIcon {
+        width: 25px;
+        color: $border-color-dark;
+      }
+    }
+    &__content {
+      @include flex-col-start;
+      padding-right: 10px;
+      padding: 5px;
+      &__city {
+        margin: 0px;
+        font-size: 16px;
+        font-family: VazirMedium;
+      }
+      &__showstate {
+        margin: 0px;
+      }
+      &__hr {
+        height: 1px;
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+.select-destination__state:hover{
+    background-color: $primary-color-light;
+}

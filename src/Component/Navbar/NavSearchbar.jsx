@@ -1,6 +1,6 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
-import PopularCity from "../searchbar/popularCity";
+import CitySearchResults from "../searchbar/CitySearchResults";
 
 const SearchBar = () => {
   const [showDestinationSelection, setShowDestinationSelection] =
@@ -22,7 +22,7 @@ const SearchBar = () => {
           <MagnifyingGlassIcon className="MagnifyingGlassIcon" />
         </div>
       </div>
-      <PopularCity showDestinationSelection={showDestinationSelection} />
+      <CitySearchResults showDestinationSelection={showDestinationSelection} />
     </div>
   );
 };

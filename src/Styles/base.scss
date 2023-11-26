@@ -1,5 +1,9 @@
 //---------colors --------------------------------------------------------------
 $border-color-light: #dddddd;
+$border-color-dark: #969FA7;
+$primary-color: #f1a84c;
+$primary-color-light: #f4d6b0;
+$primary-black: #222222;
 //---------mixins --------------------------------------------------------------
 @mixin flex-row-center {
   display: flex;
@@ -15,4 +19,19 @@ $border-color-light: #dddddd;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+@mixin flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  &-thumb {
+    background: $border-color-dark;
+    border-radius: 10px;
+  }
 }
