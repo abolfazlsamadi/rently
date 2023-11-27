@@ -26,6 +26,11 @@ $primary-black: #222222;
   justify-content: center;
   align-items: flex-start;
 }
+@mixin flex-row-center-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 ::-webkit-scrollbar {

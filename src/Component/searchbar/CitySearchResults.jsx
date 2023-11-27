@@ -28,7 +28,6 @@ const CitySearchResults = (props) => {
     }
   };
 
-  console.log(inputValue.length);
   return (
     <>
       {props.showDestinationSelection ? (
