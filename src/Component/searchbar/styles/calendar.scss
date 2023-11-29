@@ -1,0 +1,45 @@
+
+.selected{
+    background-color: $primary-color;
+    color: #fff;
+  }
+  
+.rmdp-wrapper{    
+  box-shadow: 0 0 #0000 !important;    
+}
+.rmdp-arrow{
+  border-color:  $primary-color !important;
+}
+.rmdp-today {
+  span{
+    background-color: #f1bf82 !important;
+  }
+  
+}
+.rmdp-day{
+  :hover{
+    background-color: $primary-color-light !important;
+  }
+}
+.rmdp-selected{
+  span{
+    background-color: $primary-color !important;
+  }
+}
+.rmdp-week-day{
+  color: $primary-color !important;
+}
+.rmdp-arrow-container:hover {
+  background-color: $primary-color !important;
+}
+.rmdp-panel-body{
+  li{
+    background-color: $primary-color !important;
+    button{
+      background-color: $primary-color !important;
+    }
+  }
+}
+.rmdp-range {
+  background-color: $primary-color !important;
+}
