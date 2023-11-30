@@ -108,3 +108,38 @@
   // }
 }
 @import "calendar";
+
+.guest-number{
+  position: absolute;
+  @include flex-row-center-around;
+  width: 200px;
+  height: 50px;
+  top: 60px;
+  right: 300px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid $border-color-light;
+  border-radius: 10px;
+  &__handler{
+    @include flex-row-center;
+    gap: 10px;
+    &__plus-icon{
+      @include flex-row-center;
+      border: 1px solid $border-color-light;
+      border-radius: 5px;
+      padding: 4px;
+      &__icon{
+        width: 20px;
+      }
+    }
+    &__minus-icon{
+      @include flex-row-center;
+      border: 1px solid $border-color-light;
+      border-radius: 5px;
+      padding: 4px;
+      &__icon{
+        width: 20px;
+      }
+    }
+  }
+}

@@ -20,16 +20,16 @@ $primary-black: #222222;
   justify-content: flex-start;
   align-items: center;
 }
+@mixin flex-row-center-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 @mixin flex-col-start {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-}
-@mixin flex-row-center-around {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 
