@@ -25,12 +25,12 @@
 .app {
   // width: 100vw;
   max-width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
   font-family: Vazir;
   margin: 0;
   padding: 0;
   direction: rtl;
   
 }
+#root{}

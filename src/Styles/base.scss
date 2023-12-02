@@ -25,6 +25,12 @@ $primary-black: #222222;
   justify-content: space-around;
   align-items: center;
 }
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @mixin flex-col-start {
   display: flex;
   flex-direction: column;
@@ -34,7 +40,7 @@ $primary-black: #222222;
 @mixin flex-col-start-start {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 @mixin padding-x($value) {
