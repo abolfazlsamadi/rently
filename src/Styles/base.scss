@@ -20,6 +20,11 @@ $primary-black: #222222;
   justify-content: flex-start;
   align-items: center;
 }
+@mixin flex-row-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 @mixin flex-row-center-around {
   display: flex;
   justify-content: space-around;

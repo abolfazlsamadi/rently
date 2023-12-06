@@ -1,0 +1,16 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 9999px;
+  border: 1px solid $border-color-dark;
+  box-sizing: border-box;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  transform: scale(0.3);
+}
+.swiper-button-disabled {
+  display: none;
+}

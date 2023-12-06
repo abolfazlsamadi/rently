@@ -1,0 +1,71 @@
+{
+    "trending":[
+        {
+            "img-url":{
+                "1":"https://a0.muscache.com/im/pictures/fedfd719-db8e-4c1c-aef6-f89ae0703cbb.jpg",
+                "2":"https://a0.muscache.com/im/pictures/08353c1f-b28d-4d3d-8a4e-f92495f1df26.jpg",
+                "3":"https://a0.muscache.com/im/pictures/c7d54e7b-4ff2-4c1f-8cd4-2459f71bc819.jpg",
+                "4":"https://a0.muscache.com/im/pictures/9a292ef6-01c0-4085-a5d3-6e29dfb7a675.jpg",
+                "5":"https://a0.muscache.com/im/pictures/9cdfa0d3-a8c9-42f9-a6e7-9e04739abd3a.jpg",
+                "6":"https://a0.muscache.com/im/pictures/03d5420b-d136-42b9-b984-ecfe9fc202d9.jpg",
+                "7":"https://a0.muscache.com/im/pictures/689e187a-bc63-4cd7-8e32-7d9abfbebd23.jpg"
+            },
+            "name":"کلبه جنگلی ستاره",
+            "location":"اسالم، گیلان، ایران",
+            "rate":"4.6",
+            "open-date":"1 تا 5 بهمن",
+            "main-price":"1200000",
+            "discount":"20"
+        },
+        {
+            "img-url":{
+                "1":"https://cdn.jabama.com/image/890x492/jabama-images/1479506/1afb8a5f-2eb8-40a8-9df5-dcc693af6fb4.jpeg",
+                "2":"https://cdn.jabama.com/image/383x240/jabama-images/1456713/7ba84fc7-98a6-4a49-84f5-cff0088be470.jpeg",
+                "3":"https://cdn.jabama.com/image/383x240/jabama-images/1456713/a96098ab-192d-4739-a584-220832afcc73.jpeg",
+                "4":"https://cdn.jabama.com/image/383x240/jabama-images/1479506/d137e56f-2c02-4dbc-8fd4-11ecd1e79379.jpeg",
+                "5":"https://cdn.jabama.com/image/jabama-images/1479506/719bb829-1f6c-4678-8ccd-836ea9fc8b72.jpeg",
+                "6":"https://cdn.jabama.com/image/jabama-images/1479506/c5026c05-7a86-4cc1-ab66-0efaa03488ca.jpeg"
+            },
+            "name":"بوم گردی در بلوچ - واحد کپر مستطیل",
+            "location":"چابهار، سیستان و بلوچستان، ایران",
+            "rate":"4.3",
+            "open-date":"3 تا 6 بهمن",
+            "main-price":"1150000",
+            "discount":"15"
+        },
+        {
+            "img-url":{
+                "1":"https://cdn.jabama.com/image/jabama-images/2096776/9ca031f2-83fc-43c6-a622-3135eff9c3db.jpg",
+                "2":"https://cdn.jabama.com/image/jabama-images/2096776/76337f67-bcda-4ef5-aff9-4655efdd27c5.jpg",
+                "3":"https://cdn.jabama.com/image/jabama-images/2096776/e0d97095-e264-413b-a715-a63026a11b18.jpg",
+                "4":"https://cdn.jabama.com/image/jabama-images/2096776/872c5ee2-a5ea-44c1-a6b1-0a5a95c850ef.jpg",
+                "5":"https://cdn.jabama.com/image/jabama-images/2096776/c79ba6ce-246f-4a45-8774-9b377f9f3467.jpg",
+                "6":"https://cdn.jabama.com/image/jabama-images/2096776/2e233529-9fe8-49b0-9ba7-e382fcf6f310.jpeg"
+            },
+            "name":"دوخوابه ساحلی استخردار لوار",
+            "location":"قشم، هرمزگان، ایران",
+            "rate":"4.7",
+            "open-date":"9 تا 15 بهمن",
+            "main-price":"1350000",
+            "discount":"10"
+        }
+    ],
+    "front-beach":[
+        {
+            "img-url":{
+                "1":"https://cdn.jabama.com/image/jabama-images/1681067/1de7c593-a1be-4912-a0cb-39981a9320f4.jpg",
+                "2":"https://cdn.jabama.com/image/jabama-images/2612552/d9263167-0ba5-4066-afc4-bed323c754c7.jpg",
+                "3":"https://cdn.jabama.com/image/jabama-images/1681067/6c15cbc7-e9d5-4b2f-ab8a-ea6c29b5b083.jpg",
+                "4":"https://cdn.jabama.com/image/jabama-images/2612552/c94d7814-7e66-4ee5-a050-373012c14a3d.jpg",
+                "5":"https://cdn.jabama.com/image/jabama-images/2612552/e7cd8a3a-71ef-4786-9315-e31b7f8a2310.jpg",
+                "6":"https://cdn.jabama.com/image/jabama-images/1681067/1d6a4427-cc82-47e9-9f08-4e9975f3f856.jpg"
+            },
+            "name":"ویلا چهارخوابه استخردار عمارت آپادانا",
+            "location":"رامسر، مازندران، ایران",
+            "rate":"5",
+            "open-date":"22 تا 29 دی",
+            "main-price":"4250000",
+            "discount":"16"
+        }
+    ]
+}
