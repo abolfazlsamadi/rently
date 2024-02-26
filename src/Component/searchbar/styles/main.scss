@@ -13,6 +13,7 @@
   font-size: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
+  z-index: 50;
   .ppl-ct {
     margin: 0px;
     margin-bottom: 8px;
@@ -77,6 +78,7 @@
 
 .time-booking{
   position: absolute;
+  z-index: 50;
   top: 60px;
   padding: 8px;
   background-color: #fff;
@@ -112,6 +114,7 @@
 .guest-number{
   position: absolute;
   @include flex-row-center-around;
+  z-index: 50;
   width: 200px;
   height: 50px;
   top: 60px;

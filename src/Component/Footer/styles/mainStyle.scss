@@ -1,0 +1,75 @@
+@import '../../../Styles/base.scss';
+
+.main-footer{
+    @include flex-row-center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    margin-top: 80px;
+    padding: 80px;
+    &__main-content-container{
+        @include flex-row-between-start;
+        width: 100%;
+        &__reservation{
+            ul{
+                padding-right: 20px;
+            }
+            &__text{
+                font-family: VazirBold;
+            }
+        }
+        &__customer-service{
+            ul{
+                padding-right: 20px;
+            }
+            &__text{
+                font-family: VazirBold;
+            }
+        }
+        &__with-rently{
+            ul{
+                padding-right: 20px;
+            }
+            &__text{
+                font-family: VazirBold;
+            }
+        }
+        &__brand-info{
+            &__img-container{
+                &__img{
+                    width: 120px;
+                }
+            }
+            &__social-title{
+                font-family: VazirMedium;
+            }
+            &__social-link{
+                @include flex-row-start;
+                gap: 8px;
+                margin-top: 8px;
+                &__instagram-link{
+                    @include flex-row-center;
+                    width: 32px;
+                    height: 32px;
+                    padding: 6px;
+                    background-color: $border-color-light;
+                    border-radius: 10px;
+                    &__icon{
+                        width: 20px;
+                    }
+                }
+                &__telegram-link{
+                    @include flex-row-center;
+                    width: 32px;
+                    height: 32px;
+                    padding: 6px;
+                    background-color: $border-color-light;
+                    border-radius: 10px;
+                    &__icon{
+                        width: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

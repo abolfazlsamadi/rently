@@ -1,0 +1,118 @@
+@import "../../../../Styles/base.scss";
+
+.main-content__showing-cards {
+  @include padding-x(80px);
+  // @include flex-row-center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  &__card {
+    width: 20%;
+    max-width: 320px;
+    height: 400px;
+    max-height: 400px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    flex-basis: 23%;
+    flex-grow: 1;
+    &__img-container {
+      width: 100%;
+      height: 300px;
+      min-height: 300px;
+      :hover {
+        .swiper-button-next,
+        .swiper-button-prev {
+          visibility: visible;
+        }
+      }
+      &__swiper {
+        &__slide {
+          &__img {
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            min-height: 300px;
+          }
+        }
+      }
+    }
+    &__info{
+        @include flex-col-start;
+        gap: 2px;
+        &__top-title{
+            @include flex-row-between;
+            width: 100%;
+            padding-top: 8px;
+            font-family: VazirBold;
+            &__title{}
+            &__rate{
+                @include flex-row-center;
+                gap: 8px;
+                &__icon{
+                    width: 16px;
+                    height: 16px;
+                    color: $primary-color;
+                }
+                &__value{}
+            }
+        }
+        &__location{
+            color: $border-color-dark;
+        }
+        &__time{
+            color: $border-color-dark;
+        }
+        &__price{
+            @include flex-row-start;
+            gap: 8px;
+            &__discount-percent{
+                @include flex-row-center;
+                @include padding-x(6px);
+                padding-left: 6px;
+                background-color: #FB3449;
+                color: white;
+                border-radius: 999px;
+                gap: 4px;
+            }
+            &__main-price{
+                color: $border-color-dark;
+                text-decoration: line-through;
+                text-decoration-color: #FB3449;
+            }
+            &__discount-price-container{
+                @include flex-row-start;
+                gap: 4px;
+                font-family: VazirBold;
+            }
+        }
+    }
+  }
+}
+
+.main-content__showing-cards__card__img-container .swiper-button-next,
+.main-content__showing-cards__card__img-container .swiper-button-prev {
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 9999px;
+  border: 1px solid $border-color-dark;
+  box-sizing: border-box;
+}
+.main-content__showing-cards__card__img-container .swiper-button-next::after,
+.main-content__showing-cards__card__img-container .swiper-button-prev::after {
+  transform: scale(0.3);
+}
+.main-content__showing-cards__card__img-container .swiper-button-disabled {
+  display: none;
+}
+.main-content__showing-cards__card__img-container .swiper-pagination-bullet{
+    background-color: #D9D7D9;
+    opacity: 50%;
+}
+.main-content__showing-cards__card__img-container .swiper-pagination-bullet-active{
+    background-color: white !important;
+    opacity: 100%;
+}
