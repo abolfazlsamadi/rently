@@ -18,7 +18,6 @@ import { changeShowingContent } from '../../redux/locationStateSlice';
 const TopMainSwiper = () => {
     const dispatch = useDispatch()
     const locationState = useSelector((state) => state.locationState.value)
-    console.log(locationState)
 
   return (
     <>

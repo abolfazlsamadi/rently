@@ -1,15 +1,28 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
-import { StarIcon } from "@heroicons/react/24/solid";
+import { StarIcon, HeartIcon } from "@heroicons/react/24/solid";
+import { HeartIcon as HeartIconOutline } from "@heroicons/react/24/outline";
+
+import { useState } from "react";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const LocationCard = ({ cardsData }) => {
+  const [likeState, setLikeState] = useState(false);
+
+  console.log("swp");
   return (
     <div className="main-content__showing-cards__card">
+      <div onClick={() => {setLikeState((current) => !current)}} className="main-content__showing-cards__card__like-container">
+        {likeState ? (
+          <HeartIcon className="main-content__showing-cards__card__like-container__like-icon-true" />
+        ) : (
+          <HeartIconOutline className="main-content__showing-cards__card__like-container__like-icon-false" />
+        )}
+      </div>
       <div className="main-content__showing-cards__card__img-container">
         <Swiper
           navigation={true}
@@ -19,7 +32,7 @@ const LocationCard = ({ cardsData }) => {
           slidesPerView={1}
         >
           {Object.entries(cardsData["img-url"]).map(([index, img]) => (
-            <SwiperSlide className="main-content__showing-cards__card__img-container__swiper__slide">
+            <SwiperSlide key={index} className="main-content__showing-cards__card__img-container__swiper__slide">
               <img
                 className="main-content__showing-cards__card__img-container__swiper__slide__img"
                 src={img}
@@ -57,9 +70,13 @@ const LocationCard = ({ cardsData }) => {
         </div>
         <div className="main-content__showing-cards__card__info__price__discount-price-container">
           <div className="main-content__showing-cards__card__info__price__discount-price-container__value">
-            {Intl.NumberFormat().format((cardsData["main-price"] * (100 - cardsData["discount"])) / 100)}
+            {Intl.NumberFormat().format(
+              (cardsData["main-price"] * (100 - cardsData["discount"])) / 100
+            )}
           </div>
-          <div className="main-content__showing-cards__card__info__price__discount-price-container__text">تومان / هرشب</div>
+          <div className="main-content__showing-cards__card__info__price__discount-price-container__text">
+            تومان / هرشب
+          </div>
         </div>
       </div>
     </div>

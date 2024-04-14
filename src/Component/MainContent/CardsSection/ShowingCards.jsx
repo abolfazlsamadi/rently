@@ -44,8 +44,8 @@ const ShowingCards = () => {
 
     return ( 
         <div className="main-content__showing-cards">
-            {data.map((data) => (
-                <LocationCard cardsData={data} />
+            {data.map((data, index) => (
+                <LocationCard key={index} cardsData={data} />
             ))}
         </div>
      );

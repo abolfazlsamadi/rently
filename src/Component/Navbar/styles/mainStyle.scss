@@ -1,16 +1,20 @@
-@import '../../../Styles/base.scss';
+@import "../../../Styles/base.scss";
 .mainNavbar {
- display: flex;
-//  align-items: center;
- justify-content: space-between;
+  display: flex;
+  //  align-items: center;
+  justify-content: space-between;
   align-items: center;
+  background-color: $primary-white;
   width: 100%;
   min-height: 80px;
   padding-left: 80px;
   padding-right: 80px;
   box-sizing: border-box;
   border-bottom: 1px solid $border-color-light;
-  
+  position: sticky;
+  top: 0px;
+  z-index: 60;
+
   div {
     img {
       width: 130px;

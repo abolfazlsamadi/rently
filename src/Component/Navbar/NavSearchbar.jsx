@@ -32,8 +32,6 @@ const SearchBar = () => {
     }
   };
 
-  console.log("showDestinationSelection", showDestinationSelection);
-  console.log("showTimeBooking", showTimeBooking);
   return (
     <div className="searchbar">
       <div className="searchbar__frame">
