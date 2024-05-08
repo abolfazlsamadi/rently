@@ -1,6 +1,6 @@
 import LocationCard from "./locationCard";
 import "./styles/mainStyle.scss";
-import allData from "../../../data/places.json";
+import allData from "../../../data/places_with_id.json";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
@@ -45,7 +45,7 @@ const ShowingCards = () => {
     return ( 
         <div className="main-content__showing-cards">
             {data.map((data, index) => (
-                <LocationCard key={index} cardsData={data} />
+                <LocationCard key={index} cardsData={data} locationState={locationState} />
             ))}
         </div>
      );

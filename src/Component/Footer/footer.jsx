@@ -51,10 +51,10 @@ const MainFooter = () => {
             رنت‌لی را در شبکه‌های اجتماعی دنبال کنید:
           </div>
           <div className="main-footer__main-content-container__brand-info__social-link">
-            <a href="#" className="main-footer__main-content-container__brand-info__social-link__instagram-link">
+            <a href="/" className="main-footer__main-content-container__brand-info__social-link__instagram-link">
               <img src={instagramIcon} alt="instagramIcon" className="main-footer__main-content-container__brand-info__social-link__instagram-link__icon" />
             </a>
-            <a href="#" className="main-footer__main-content-container__brand-info__social-link__telegram-link">
+            <a href="/" className="main-footer__main-content-container__brand-info__social-link__telegram-link">
               <img src={telegramIcon} alt="telegramIcon" className="main-footer__main-content-container__brand-info__social-link__telegram-link__icon" />
             </a>
           </div>

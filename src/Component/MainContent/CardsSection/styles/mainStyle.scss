@@ -9,13 +9,11 @@
   &__card {
     width: 20%;
     max-width: 320px;
-    height: 400px;
-    max-height: 400px;
-    margin-bottom: 30px;
     margin-top: 20px;
     flex-basis: 23%;
     flex-grow: 1;
     position: relative;
+    cursor: pointer;
     &__like-container {
       position: absolute;
       top: 10px;

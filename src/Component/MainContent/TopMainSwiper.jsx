@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSelector } from "react-redux";
-import { useState } from "react";
 
 // Import Swiper styles
 import 'swiper/css';
