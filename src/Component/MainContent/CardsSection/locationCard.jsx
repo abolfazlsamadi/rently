@@ -15,7 +15,6 @@ import "swiper/css/pagination";
 const LocationCard = ({ cardsData, locationState }) => {
   const [likeState, setLikeState] = useState(false);
 
-
   return (
     <div className="main-content__showing-cards__card">
       <div

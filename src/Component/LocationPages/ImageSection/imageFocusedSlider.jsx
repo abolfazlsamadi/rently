@@ -57,7 +57,7 @@ const ImageFocusedSlider = ({ closeImgSlider, imgUrls }) => {
               >
                 <img
                   src={imgUrl}
-                  alt={`image ${index}`}
+                  alt={index}
                   className="main-location-page__img-section__img-focused-slider__slider-container__main-slider-container__swiper__swiper-slider__img"
                 />
               </SwiperSlide>
@@ -82,7 +82,7 @@ const ImageFocusedSlider = ({ closeImgSlider, imgUrls }) => {
               >
                 <img
                   src={imgUrl}
-                  alt={`image ${index}`}
+                  alt={index}
                   className="main-location-page__img-section__img-focused-slider__slider-container__bottom-slider-container__swiper__swiper-slider__img"
                 />
               </SwiperSlide>
