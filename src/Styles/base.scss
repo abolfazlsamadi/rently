@@ -41,6 +41,11 @@ $primary-white: #ffffff;
   justify-content: space-around;
   align-items: center;
 }
+@mixin flex-row-start-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 @mixin flex-col-center {
   display: flex;
   flex-direction: column;
@@ -74,6 +79,10 @@ $primary-white: #ffffff;
 @mixin padding-x($value) {
   padding-left: $value;
   padding-right: $value;
+}
+@mixin padding-y($value) {
+  padding-top: $value;
+  padding-bottom: $value;
 }
 
 

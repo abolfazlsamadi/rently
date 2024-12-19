@@ -17,11 +17,11 @@ const LocationPage = () => {
       <TopTitle page_data={page_data} />
       <ImgSection page_data={page_data} />
       <div className="main-location-page__location-all-info">
+        <div className="main-location-page__location-all-info__main-content">
+          <MainContentLocationPage page_data={page_data} />
+        </div>
         <div className="main-location-page__location-all-info__sidebar-content">
           <SidebarContentLocationPage page_data={page_data} />
-        </div>
-        <div>
-          <MainContentLocationPage />
         </div>
       </div>
     </div>
